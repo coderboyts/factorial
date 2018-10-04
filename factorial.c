@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c=1;
+	int a,x,d=1;
 	printf("Enter the value of a : ");
 	scanf("%d",&a);
-	for(b=1;b<=a;b++)
+	for(x=1;x<=a;x++)
 	{
-		c=b*c;
+		d=x*d;
 		
 		
-	} printf("%d",c);
+	} printf("%d",d);
 }

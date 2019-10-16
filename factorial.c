@@ -2,11 +2,11 @@
 int main()
 {
 
-	int a,x,d=1;
-	printf("Enter the value of a : ");
+	int b,x,d=1;
+	printf("Enter the value of b : ");
 
-	scanf("%d",&a);
-	for(x=1;x<=a;x++)
+	scanf("%d",&b);
+	for(x=1;x<=b;x++)
 	{
 		d=x*d;
 		
